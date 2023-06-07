@@ -1,0 +1,256 @@
+.ChooseMyTrainTicketContainer {
+
+    display: flex;
+    width: 993px;
+    height: 189px;
+    background-color: white;
+    margin-bottom: 41px;
+
+}
+
+.ChooseMyTrainTicketContainer .left {
+
+    width: 648px;
+
+}
+
+.ChooseMyTrainTicketContainer .typeOfTrain-img {
+
+    margin-left: 17px;
+
+}
+
+.ChooseMyTrainTicketContainer .upper {
+
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: space-between;
+    height: 23px;
+    margin-top: 12px;
+
+}
+
+.ChooseMyTrainTicketContainer .date {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.ChooseMyTrainTicketContainer .strelka {
+
+    width: 79px;
+    height: 11px;
+    margin-left: 7px;
+    margin-right: 7px;
+
+}
+
+.ChooseMyTrainTicketContainer .typeOfTrain {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.ChooseMyTrainTicketContainer .numberOfTrain {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.ChooseMyTrainTicketContainer .date p {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.ChooseMyTrainTicketContainer .center {
+
+    display: flex;
+    align-items: center;
+    width: 558px;
+    justify-content: space-between;
+    margin-left: 42px;
+    margin-top: 33px;
+    height: 76px;
+
+}
+
+.ChooseMyTrainTicketContainer .Time {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.ChooseMyTrainTicketContainer .fisrtPlace {
+
+    color: #434549;
+    font-family: 'Gost Type A';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+
+}
+
+.ChooseMyTrainTicketContainer .secondPlace {
+
+    color: #434549;
+    font-family: 'Gost Type A';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+
+}
+
+.ChooseMyTrainTicketContainer .fullTime {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ChooseMyTrainTicketContainer .strelkaCenter {
+
+    width: 259px;
+    height: 15px;
+    margin-left: 34px;
+    margin-right: 34px;
+
+}
+
+.ChooseMyTrainTicketContainer .footer {
+
+    width: 28px;
+    height: 18px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+
+}
+
+.ChooseMyTrainTicketContainer .IdOfTicket {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.ChooseMyTrainTicketContainer .infoAboutTicket {
+
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    align-items: center;
+
+}
+
+.ChooseMyTrainTicketContainer .right {
+
+    display: flex;
+    align-items: center;
+    width: 345px;
+
+}
+
+.ChooseMyTrainTicketContainer .info {
+
+    display: block;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 310px;
+
+}
+
+.ChooseMyTrainTicketContainer .footerOfRight {
+
+    position: absolute;
+    margin-bottom: 10px;
+    margin-top: 148px;
+    margin-left: 296px;
+    margin-right: 15px;
+
+}
+
+.ChooseMyTrainTicketContainer .footerOfRight button {
+
+    width: 33px;
+    height: 31px;
+    padding: 0;
+    border: 0;
+    background-color: white;
+
+}
+
+.ChooseMyTrainTicketContainer .typeOfTicket {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.ChooseMyTrainTicketContainer .price {
+
+    color: #AC9286;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.ChooseMyTrainTicketContainer .infoAboutPassenger p {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}

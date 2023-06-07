@@ -1,0 +1,201 @@
+.profileContainer {
+
+    position: relative;
+    display: flex;
+    max-width: 1600px;
+    height: 900px;
+    margin: auto;
+
+}
+
+.photoProfile .changePhoto {
+
+    text-decoration: none;
+
+}
+
+.photoProfile .changePhoto p {
+
+    display: flex;
+    justify-content: center;
+    color: #434549;
+    font-family: 'GOST type A';
+    font-size: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0px;
+
+}
+
+.photoProfile .myPhoto {
+
+    border-radius: 30px;
+
+}
+
+.photoProfile {
+
+    margin-top: 38px;
+    position: absolute;
+    margin-left: 277px;
+
+}
+
+.gender p {
+
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    color: #434549;
+    font-family: 'GOST type A';
+    font-size: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.genderButtons {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    
+
+}
+
+.genderButtons button {
+
+    width: 70px;
+    height: 56px;
+    border-radius: 10px;
+    color: #808080;
+    background-color: #FFFFFF;
+    font-family: 'GOST type A';
+    font-size: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.genderButtons .m {
+
+    margin-right: 22px;
+    color: #FFFFFF;
+    background-color: #434549;
+
+}
+
+.gender {
+
+margin-top: 100px;
+
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    height: 448px;
+    justify-content: space-between;
+    margin-top: 38px;
+    margin-left: 558px;
+}
+
+.input-container input {
+
+    width: 276px;
+    padding-right: 0;
+    height: 54px;
+    color: #434549;
+    font-family: 'GOST type A';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: auto;
+    margin-top: 9px;
+    border-radius: 10px;
+    padding: 0;
+    padding-left: 13px;
+
+}
+
+#input-block-2 {
+    margin-left: 76px;
+}
+
+.input-container p {
+
+    margin: 0;
+    height: 22px;
+
+
+    color: #434549;
+    font-family: 'GOST type A';
+    font-size: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.saveButton {
+
+    width: 248px;
+    height: 56px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #AC9286;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+    border: 0px;
+    position: absolute;
+    margin-left: 676px;
+    margin-top: 615px;
+
+}
+
+.document {
+
+    color: #434549;
+    font-family: 'GOST type A';
+    font-size: 20px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.documentA {
+
+    text-decoration-line: none;
+
+}
+
+.documentBlock {
+
+    display: flex;
+    width: 257px;
+    height: 36px;
+    margin-left: 84px;
+    margin-top: 73px;
+
+}
+
+.documentBlock img {
+
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+
+}

@@ -1,0 +1,44 @@
+.adminPanelContainer {
+
+    justify-content: center;
+    display: grid;
+
+}
+
+.adminPanelContainer .admin {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 126px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 76px;
+
+}
+
+.adminPanelContainer button {
+
+    width: 248px;
+    height: 56px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #AC9286;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 55px;
+
+}
+
+.adminPanelContainer .buttons {
+
+    display: grid;
+    justify-content: center;
+
+}
+

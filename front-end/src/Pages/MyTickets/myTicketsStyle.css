@@ -1,0 +1,21 @@
+.myTicketsContainer {
+
+    justify-content: center;
+    display: grid;
+
+}
+
+#firstP {
+
+    display: flex;
+    justify-content: center;
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-top: 42px;
+    margin-bottom: 42px;
+
+}

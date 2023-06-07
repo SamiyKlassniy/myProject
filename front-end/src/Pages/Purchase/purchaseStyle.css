@@ -1,0 +1,27 @@
+.purchaseContainer {
+
+    display: grid;
+    justify-content:space-around;
+    align-items: center;
+    height: 900px;
+
+}
+
+.purchaseContainer .error {
+
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+
+
+}
+
+.purchaseContainer button {
+
+    margin: auto;
+
+}
+

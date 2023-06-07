@@ -1,0 +1,149 @@
+.createPassengersContainer {
+
+    position: relative;
+    max-width: 1600px;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.createPassengersContainer p {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: 0 auto;
+    margin-top: 51px;
+    height: 58px;
+
+}
+
+.createPassengersContainer .createPassengersContainerinput-container {
+
+    display: flex;
+    margin: 0 auto;
+    height: 82px;
+
+}
+
+.createPassengersContainer .createPassengersContainerinput-container p {
+
+    margin: 0;
+    height: 22px;
+
+
+    color: #434549;
+    font-family: 'GOST type A';
+    font-size: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.createPassengersContainerinput-container input {
+
+    width: 276px;
+    padding-right: 0;
+    height: 54px;
+    color: #434549;
+    font-family: 'GOST type A';
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: auto;
+    margin-top: 9px;
+    border-radius: 10px;
+    padding: 0;
+    padding-left: 13px;
+
+}
+
+#second {
+
+    margin-top: 85px;
+
+}
+
+#first {
+
+    margin-top: 63px;
+
+}
+
+#middle {
+
+    margin: 0 61px 0 61px;
+
+}
+
+.createGender p {
+
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    color: #434549;
+    font-family: 'GOST type A';
+    font-size: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.createGender {
+
+    display: grid;
+    justify-content: center;
+
+}
+
+.createGenderButtons {
+
+    display: flex;
+    justify-content: center;    
+    margin-top: 9px;
+    width: 162px;
+    justify-content: space-between;
+
+}
+
+.createGenderButtons button {
+
+    width: 70px;
+    height: 56px;
+    border-radius: 10px;
+    color: #808080;
+    background-color: #FFFFFF;
+    font-family: 'GOST type A';
+    font-size: 24px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.createPassengersContainer .saveButton {
+
+    width: 248px;
+    height: 56px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #AC9286;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+    border: 0px;
+    position: absolute;
+    margin-left: 676px;
+    margin-top: 615px;
+
+}

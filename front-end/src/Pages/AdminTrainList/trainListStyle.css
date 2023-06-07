@@ -1,0 +1,33 @@
+.trainList {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+table {
+
+    width: 1600px;
+    margin-top: 79px;
+
+}
+
+.addTrain {
+
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+td {
+
+    text-align: center;
+
+}
+
+.AdminChangePassengersContainer .intro {
+
+    margin-top: 0;
+
+}

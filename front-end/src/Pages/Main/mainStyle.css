@@ -1,0 +1,116 @@
+.mainContainer {
+
+    position: relative;
+    display: flex;
+    width: 1600px;
+    height: 533px;
+    background-size: 100% auto;
+    background-image: url('../../img/background-img.jpg');
+    justify-content: right;
+    margin: auto;
+
+}
+
+.mainContainer .search-bar {
+
+    width: 835px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFF;
+    margin-right: 172PX;
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+        
+}
+
+.mainContainer input {
+
+    width: 154px;
+    padding-left: 14px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 48px;
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    border: 1px solid #AC9286;
+    margin: auto;
+
+}
+
+.mainContainer p {
+
+    color: #fff;
+    font-family: 'GOST type A';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 142px;
+    margin-bottom: 0px;
+    margin-left: 212px;
+    width: 446px;
+    height: 59px;
+
+
+}
+
+.mainContainer button {
+
+    width: 144px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    margin-right: 34px;
+    margin-left: 34px;
+    color: #FFF;
+    background-color: #AC9286;
+    font-family: 'Inter', sans-serif;
+    font-style: medium;
+    font-size: 20px;
+
+
+}
+
+.mainContainer button:hover {
+
+    transition: ease, 1.5s;
+    transform: scale(1.1);
+
+}
+
+.mainContainer #firstInput {
+
+    margin-left: 34px;
+    margin-right: 10px;
+
+}
+
+.mainContainer #lastInput {
+
+    margin-RIGHT: 0px;
+
+}
+
+.mainContainer #secondInput {
+
+    margin-left: 10px;
+
+
+}
+
+.mainContainer input[type="date"]::before { 
+    content: attr(data-placeholder);
+    width: 100%;
+}
+
+/* hide our custom/fake placeholder text when in focus to show the default
+ * 'mm/dd/yyyy' value and when valid to show the users' date of birth value.
+ */
+ .mainContainer input[type="date"]:focus::before,
+ .mainContainer input[type="date"]:valid::before { display: none }

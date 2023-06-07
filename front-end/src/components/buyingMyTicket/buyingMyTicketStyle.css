@@ -1,0 +1,285 @@
+.BuyingMyTicketContainer {
+
+    display: flex;
+    width: 993px;
+    height: 189px;
+    background-color: white;
+    margin-bottom: 41px;
+
+}
+
+.BuyingMyTicketContainer .left {
+
+    width: 648px;
+
+}
+
+.BuyingMyTicketContainer .typeOfTrain-img {
+
+    margin-left: 17px;
+
+}
+
+.BuyingMyTicketContainer .upper {
+
+    display: flex;
+    align-items: center;
+    width: 477px;
+    justify-content: space-between;
+    height: 23px;
+    margin-top: 12px;
+
+}
+
+.BuyingMyTicketContainer .date {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.BuyingMyTicketContainer .strelka {
+
+    width: 79px;
+    height: 11px;
+    margin-left: 7px;
+    margin-right: 7px;
+
+}
+
+.BuyingMyTicketContainer .typeOfTrain {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.BuyingMyTicketContainer .numberOfTrain {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.BuyingMyTicketContainer .date p {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.BuyingMyTicketContainer .center {
+
+    display: flex;
+    align-items: center;
+    width: 558px;
+    justify-content: space-between;
+    margin-left: 42px;
+    margin-top: 33px;
+    height: 76px;
+
+}
+
+.BuyingMyTicketContainer .Time {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.BuyingMyTicketContainer .fisrtPlace {
+
+    color: #434549;
+    font-family: 'Gost Type A';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+
+}
+
+.BuyingMyTicketContainer .secondPlace {
+
+    color: #434549;
+    font-family: 'Gost Type A';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+
+}
+
+.BuyingMyTicketContainer .fullTime {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.BuyingMyTicketContainer .strelkaCenter {
+
+    width: 259px;
+    height: 15px;
+    margin-left: 34px;
+    margin-right: 34px;
+
+}
+
+.BuyingMyTicketContainer .footer {
+
+    width: 28px;
+    height: 18px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+
+}
+
+.BuyingMyTicketContainer .IdOfTicket {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.BuyingMyTicketContainer .infoAboutTicket {
+
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    align-items: center;
+
+}
+
+.BuyingMyTicketContainer .right {
+
+    display: flex;
+    align-items: center;
+    width: 345px;
+
+}
+
+.BuyingMyTicketContainer .info {
+
+    display: block;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 310px;
+
+}
+
+.BuyingMyTicketContainer .footerOfRight {
+
+    position: absolute;
+    margin-bottom: 10px;
+    margin-top: 148px;
+    margin-left: 296px;
+    margin-right: 15px;
+
+}
+
+/* .BuyingMyTicketContainer .footerOfRight button {
+
+    width: 33px;
+    height: 31px;
+    padding: 0;
+    border: 0;
+    background-color: white;
+
+} */
+
+.plusButton {
+
+    height: 23px;
+    width: 25px;
+    background-color: white;
+
+}
+
+
+
+.BuyingMyTicketContainer .typeOfTicket {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.BuyingMyTicketContainer .price {
+
+    color: #AC9286;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.BuyingMyTicketContainer .infoAboutPassenger p {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.BuyingMyTicketContainer .amountBlock {
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.BuyingMyTicketContainer .amountBlock .amount {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}

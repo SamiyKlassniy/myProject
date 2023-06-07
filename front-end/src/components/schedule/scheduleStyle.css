@@ -1,0 +1,148 @@
+.myScheduleContainer {
+
+    display: grid;
+    width: 835px;
+    height: 189px;
+    background-color: white;
+    margin-bottom: 41px;
+
+}
+
+.typeOfTrain-img {
+
+    margin-left: 17px;
+
+}
+
+.upperSchedule {
+
+    display: flex;
+    align-items: center;
+    width: 189px;
+    justify-content: space-between;
+    height: 23px;
+    margin-top: 12px;
+
+}
+
+.date {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.strelka {
+
+    width: 79px;
+    height: 11px;
+    margin-left: 7px;
+    margin-right: 7px;
+
+}
+
+.typeOfTrain {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.numberOfTrain {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.date p {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.centerSchedule {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+
+}
+
+.Time {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.fisrtPlace {
+
+    color: #434549;
+    font-family: 'Gost Type A';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+
+}
+
+.secondPlace {
+
+    color: #434549;
+    font-family: 'Gost Type A';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+
+}
+
+.fullTime {
+
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.strelkaCenter {
+
+    width: 259px;
+    height: 15px;
+    margin-left: 34px;
+    margin-right: 34px;
+
+}

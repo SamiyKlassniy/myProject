@@ -1,0 +1,113 @@
+.menuContainer {
+
+    position: relative;
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+}
+
+.li1 {
+    display: flex;
+    align-items: center;
+}
+
+.li img {
+    width: 18px;
+    height: 18px;
+/*    margin-right: 25px;*/
+}
+
+.li1 img {
+    width: 18px;
+    height: 18px;
+/*    margin-right: 25px;*/
+}
+
+.li p {
+    width: 155px;
+}
+
+.li1 p {
+    width: 155px;
+}
+
+.menu {
+    width: 200px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 15px;
+
+}
+
+.charmenu1 {
+    text-decoration-line: none;
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.li .dashboard {
+    background-image: url('../../img/profile.png');
+    background-repeat: no-repeat;
+    background-position: left;
+/*    margin-right: 25px;*/
+}
+
+.allcoursesimg {
+    background-image: url('../../img/tickets.png');
+    background-repeat: no-repeat;
+    background-position: left;
+/*    margin-right: 25px;*/
+}
+
+.resoursesimg {
+    background-image: url('../../img/passagers.png');
+    background-repeat: no-repeat;
+    background-position: left;
+/*    margin-right: 25px;*/
+}
+
+.dashboard p {
+    margin-left: 45px;
+    height: 18px;
+}
+
+.allcoursesimg p {
+    margin-left: 45px;
+    height: 18px;
+
+}
+
+.resoursesimg {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.resoursesimg p {
+    margin-left: 45px;
+    height: 18px;
+
+}

@@ -1,0 +1,103 @@
+.TicketResultContainer {
+
+    justify-content: center;
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.TicketResultContainer .search-bar {
+
+    width: 835px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFF;
+    margin-top: 43px;
+    margin-bottom: 43px;
+    display: flex;
+    align-items: center;
+        
+}
+
+.TicketResultContainer input {
+
+    width: 154px;
+    padding-left: 14px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 48px;
+    color: #434549;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    border: 1px solid #AC9286;
+    margin: auto;
+
+}
+
+.TicketResultContainer button {
+
+    width: 144px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    margin-right: 34px;
+    margin-left: 34px;
+    color: #FFF;
+    background-color: #AC9286;
+    font-family: 'Inter', sans-serif;
+    font-style: medium;
+    font-size: 20px;
+
+
+}
+
+.TicketResultContainer button:hover {
+
+    transition: ease, 1.5s;
+    transform: scale(1.1);
+
+}
+
+.TicketResultContainer #firstInput {
+
+    margin-left: 34px;
+    margin-right: 10px;
+
+}
+
+.TicketResultContainer #lastInput {
+
+    margin-RIGHT: 0px;
+
+}
+
+.TicketResultContainer #secondInput {
+
+    margin-left: 10px;
+
+
+}
+
+.TicketResultContainer input[type="date"]::before { 
+    content: attr(data-placeholder);
+    width: 100%;
+}
+
+/* hide our custom/fake placeholder text when in focus to show the default
+ * 'mm/dd/yyyy' value and when valid to show the users' date of birth value.
+ */
+ .TicketResultContainer input[type="date"]:focus::before,
+ .TicketResultContainer input[type="date"]:valid::before { display: none }
+
+ .another {
+
+    display: flex;
+    justify-content: center;
+
+ }
